@@ -79,7 +79,7 @@ body {
 
 #container-content--main--published {
   color: #111111;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 14px;
 }
 .container-content--main h1 {
@@ -89,7 +89,7 @@ body {
 }
 .container-content--main p {
   color: #6b6b6b;
-  font-weight: 200;
+  font-weight: 500;
 }
 .container-content--autor {
   display: flex;
