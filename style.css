@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #f4d04e;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 384px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  border-radius: 1.25rem;
+  box-shadow: 10px 10px #111111;
+}
+
+.container:hover {
+  box-shadow: 20px 20px #111111;
+}
+
+.container:hover h1 {
+  color: #f4d04e;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.container-content--header {
+  display: flex;
+  max-width: 336px;
+  width: 100%;
+}
+
+.container-content--header img {
+  max-width: 336px;
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+.container-content--main {
+  display: flex;
+  flex-direction: column;
+  max-width: 336px;
+  width: 100%;
+  gap: 0.75rem;
+}
+
+.container-content--main a {
+  text-decoration: none;
+  background-color: #f4d04e;
+  max-width: 82px;
+  width: 100%;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 0.25rem;
+  color: #111111;
+}
+
+#container-content--main--published {
+  color: #111111;
+  font-weight: 200;
+  font-size: 14px;
+}
+.container-content--main h1 {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 800;
+}
+.container-content--main p {
+  color: #6b6b6b;
+  font-weight: 200;
+}
+.container-content--autor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.container-content--autor img {
+  max-width: 32px;
+  width: 100%;
+}
+
+.container-content--autor h2 {
+  display: flex;
+  justify-content: center;
+  max-width: 85px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 0.34375rem;
+  padding-bottom: 0.34375rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 327px;
+    width: 100%;
+  }
+
+  .container-content--main a {
+    max-width: 73px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #container-content--main--published {
+    font-size: 12px;
+  }
+
+  .container-content--main h1 {
+    font-size: 20px;
+  }
+
+  .container-content--main p {
+    font-size: 14px;
+  }
+}
